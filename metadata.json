@@ -1,0 +1,5 @@
+{
+  "name": "Cash flow App",
+  "description": "A desktop-first web application shell featuring an administrative dashboard with top-level navigation, contextual sidebars, and an authentication flow.",
+  "requestFramePermissions": []
+}
