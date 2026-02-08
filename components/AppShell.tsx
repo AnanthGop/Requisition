@@ -447,12 +447,12 @@ export const AppShell: React.FC<AppShellProps> = ({ user, onLogout }) => {
           </span>
         </div>
 
-        <nav className="flex items-center gap-0.5 bg-white/10 p-1.5 rounded-2xl backdrop-blur-md overflow-x-auto mx-4 scrollbar-hide">
+        <nav className="flex items-center gap-1 bg-white/10 p-1.5 rounded-2xl backdrop-blur-md overflow-x-auto mx-4 scrollbar-hide">
           {menuItems.map((item) => (
             <button
               key={item}
               onClick={() => setActiveTab(item)}
-              className={`px-3 py-2 rounded-xl text-[9px] font-black uppercase tracking-wider transition-all whitespace-nowrap text-center ${
+              className={`px-3 py-2 rounded-xl text-[10px] font-black uppercase tracking-wider transition-all whitespace-nowrap text-center ${
                 activeTab === item ?
                   "bg-white text-brand-700 shadow-xl scale-105"
                 : "text-white hover:bg-white/10"
